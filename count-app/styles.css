@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+font-family: 'Hubballi', cursive;
+align-items: center;
+background-color: burlywood;
+}
+
+header {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+button {
+    border: none;
+    padding: 0.7em;
+    margin: 0.1em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
+
+p {
+    padding: 20px;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
